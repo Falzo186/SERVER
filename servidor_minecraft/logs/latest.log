@@ -1,5 +1,5 @@
-[15:55:18] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.3
-[15:55:18] [main/INFO]: Loading 62 mods:
+[15:58:48] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.3
+[15:58:49] [main/INFO]: Loading 60 mods:
 	- appleskin 2.5.1+mc1.20.3
 	   \-- cloth-config 13.0.114
 	        \-- cloth-basic-math 0.6.1
@@ -68,69 +68,78 @@
 	- geckolib 4.4.2
 	   \-- com_eliotlash_mclib_mclib 20
 	- java 21
-	- journeymap 5.9.20
-	   \-- journeymap-api-fabric 1.20.2-1.9-fabric-SNAPSHOT
 	- minecraft 1.20.4
 	- terrablender 3.3.0.12
 	   |-- com_electronwill_night-config_core 3.6.7
 	   \-- com_electronwill_night-config_toml 3.6.7
 	- travelersbackpack 1.20.4-9.4.0
-[15:55:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/SERVER/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:55:19] [main/INFO]: Compatibility level set to JAVA_17
-[15:55:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[15:55:30] [main/INFO]: Initializing ServerSide Packet Registries
-[15:55:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[15:55:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[15:55:31] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[15:55:31] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[15:55:31] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:55:31] [main/INFO]: Found new data pack fabric, loading it automatically
-[15:55:31] [main/INFO]: Found new data pack fabric-convention-tags-v1, loading it automatically
-[15:55:31] [main/INFO]: Found new data pack terrablender, loading it automatically
-[15:55:31] [main/INFO]: Found new data pack travelersbackpack, loading it automatically
-[15:55:34] [main/INFO]: Loaded 7 recipes
-[15:55:34] [main/INFO]: Loaded 1459 advancements
-[15:55:35] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[15:55:35] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[15:55:35] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[15:55:35] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[15:55:35] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 5.476 ms
-[15:55:35] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[15:55:35] [Server thread/INFO]: Loading properties
-[15:55:35] [Server thread/INFO]: Default game type: SURVIVAL
-[15:55:35] [Server thread/INFO]: Generating keypair
-[15:55:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:55:36] [Server thread/INFO]: Using epoll channel type
-[15:55:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:55:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:55:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:55:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:55:36] [Server thread/INFO]: Preparing level "world"
-[15:55:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:55:50] [Server thread/INFO]: Time elapsed: 6677 ms
-[15:55:50] [Server thread/INFO]: Done (14.108s)! For help, type "help"
-[15:55:50] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "5.9.20": journeymap.server.global.config
-[15:55:50] [Server thread/INFO]: global (Valid) Creating config file: ./journeymap/server/5.9/journeymap.server.global.config
-[15:55:50] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "5.9.20": journeymap.server.default.config
-[15:55:50] [Server thread/INFO]: default (Valid) Creating config file: ./journeymap/server/5.9/journeymap.server.default.config
-[15:55:50] [Server thread/INFO]: minecraft~overworld (Initialized) Setting config file to version "5.9.20": journeymap.server.minecraft~overworld.config
-[15:55:50] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.9/journeymap.server.minecraft~overworld.config
-[15:55:50] [Server thread/INFO]: minecraft~the_nether (Initialized) Setting config file to version "5.9.20": journeymap.server.minecraft~the_nether.config
-[15:55:50] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.9/journeymap.server.minecraft~the_nether.config
-[15:55:50] [Server thread/INFO]: minecraft~the_end (Initialized) Setting config file to version "5.9.20": journeymap.server.minecraft~the_end.config
-[15:55:50] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.9/journeymap.server.minecraft~the_end.config
-[15:57:21] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[15:57:21] [Server thread/INFO]: <--[HERE]
+[15:58:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/SERVER/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:58:49] [main/INFO]: Compatibility level set to JAVA_17
+[15:58:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15:59:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[15:59:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[15:59:01] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[15:59:01] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[15:59:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:59:04] [main/INFO]: Loaded 7 recipes
+[15:59:05] [main/INFO]: Loaded 1459 advancements
+[15:59:06] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15:59:06] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[15:59:06] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[15:59:06] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[15:59:06] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.013 ms
+[15:59:06] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:59:06] [Server thread/INFO]: Loading properties
+[15:59:06] [Server thread/INFO]: Default game type: SURVIVAL
+[15:59:06] [Server thread/INFO]: Generating keypair
+[15:59:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:59:06] [Server thread/INFO]: Using epoll channel type
+[15:59:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:59:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:59:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:59:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:59:06] [Server thread/INFO]: Preparing level "world"
+[15:59:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:59:21] [Server thread/INFO]: Time elapsed: 6992 ms
+[15:59:21] [Server thread/INFO]: Done (14.565s)! For help, type "help"
+[16:02:22] [Server thread/INFO]: ALEXPRO186[/127.168.30.52:40739] logged in with entity id 81 at (-96.5, 76.0, -311.5)
+[16:02:22] [Server thread/INFO]: ALEXPRO186 joined the game
+[16:07:32] [Server thread/INFO]: ALEXPRO186 lost connection: Disconnected
+[16:07:32] [Server thread/INFO]: ALEXPRO186 left the game
+[16:12:04] [Server thread/INFO]: ALEXPRO186[/127.168.30.52:42013] logged in with entity id 1225 at (-4.955432528186956, 71.0, -321.18169825845473)
+[16:12:04] [Server thread/INFO]: ALEXPRO186 joined the game
+[16:12:14] [Server thread/INFO]: ALEXPRO186 lost connection: Disconnected
+[16:12:14] [Server thread/INFO]: ALEXPRO186 left the game
+[16:13:15] [Server thread/INFO]: ALEXPRO186[/127.168.30.52:49943] logged in with entity id 1326 at (0.5997942032211768, 71.0, -333.58560922613225)
+[16:13:15] [Server thread/INFO]: ALEXPRO186 joined the game
+[16:13:21] [Server thread/INFO]: ALEXPRO186 lost connection: Disconnected
+[16:13:21] [Server thread/INFO]: ALEXPRO186 left the game
+[16:13:28] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:13:28] [Server thread/INFO]: -<--[HERE]
+[16:13:39] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:13:39] [Server thread/INFO]: shutdown<--[HERE]
+[16:14:15] [Server thread/INFO]: Stopping the server
+[16:14:15] [Server thread/INFO]: Stopping server
+[16:14:15] [Server thread/INFO]: Saving players
+[16:14:15] [Server thread/INFO]: Saving worlds
+[16:14:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:14:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:14:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:14:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:14:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:14:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:14:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
